@@ -3,7 +3,7 @@ function submitName () {
         var key = '4c1a196e2ea32da268dc3a9aaaf90996';
 
         const cityName = document.getElementById('cityName').value;
-        fetch('http://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=' + key)  
+        fetch('https://api.openweathermap.org/data/2.5/weather?q=' + cityName + '&appid=' + key)  
         .then(function(resp) { return resp.json() }) // Convert data to json
         .then(function(data) {
             console.log(data);
