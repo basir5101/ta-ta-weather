@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(236, 119, 119), rgb(124, 124, 241));
+    background-attachment: fixed;
+    margin: 10px;
+}
+input{
+    padding: 1rem;
+    background-color: rgba(44, 212, 44, 0.5);
+    color: white;
+    width: 80%;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+button{
+    padding: 1.5rem 0.9rem;
+    border: none;
+    border-radius: 20px 0;
+    background-image: linear-gradient(green, rgb(16, 40, 107));
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+}
+button:focus{
+    background-image: linear-gradient(yellow, green);
+    outline: none;
+    color: white;
+}
+#description, #location{
+    color: wheat;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#temp{
+    color: rgb(14, 196, 241);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+hr{
+    width: 20%;
+}
