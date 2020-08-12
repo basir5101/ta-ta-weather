@@ -31,7 +31,7 @@ button:focus{
     outline: none;
     color: white;
 }
-#description, #location{
+#description, #location, #time{
     color: wheat;
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
